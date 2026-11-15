@@ -1,0 +1,27 @@
+:root {
+    --color-gray-900: #0B1020;
+    --color-gray-700: #4F8CFF;
+    --color-gray-600: #334155;
+    --color-gray-500: #64748B;
+    --color-gray-400: #A7B3C4;
+    --color-gray-300: #CCD5E1;
+    --color-gray-200: #DCE4F0;
+    --color-gray-100: #EAF0FA;
+
+    --color-blue-100: #4F8CFF;
+    --color-blue-700: #4F8CFF;
+    --color-blue-800: #0B1020;
+    --color-white: #F5F7FA;
+}
+
+body {
+    background-color: #F5F7FA;
+    color: #0B1020;
+}
+
+body > div.max-w-6xl {
+    width: 100%;
+    max-width: none;
+    padding-left: clamp(1rem, 3vw, 3rem);
+    padding-right: clamp(1rem, 3vw, 3rem);
+}
